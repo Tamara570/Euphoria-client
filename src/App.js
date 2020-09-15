@@ -7,6 +7,7 @@ import LogInPage from './Components/LogInPage/LogInPage';
 import RegisterPage from './Components/RegisterPage/RegisterPage';
 import BlogPage from './Components/BlogPage/BlogPage';
 import VideoPage from './Components/VideoPage/VideoPage';
+import Resources from './Components/Resources/Resources';
 
 
 
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path='/register' component={RegisterPage} />
           <Route path='/blog' component={BlogPage} />
           <Route path='/video' component={VideoPage} />
+          <Route path='/resources' component={Resources} />
         </Switch>
         
       </div>

@@ -9,6 +9,18 @@ class VideoPage extends Component {
         return (
             <div className="VideoPage">
                 <Navbar />
+                <div className="Video_title">
+                    <h2>
+                        Yoga and Meditation Videos
+                    </h2>
+                    <div className="Video_item" />
+                    <div className="Video_item" />
+                    <div className="Video_item" />
+                    <div className="Video_item" />
+                    <div className="Video_item" />
+                    <div className="Video_item" />
+                </div>
+                
                 <Contact />
             </div>
         );

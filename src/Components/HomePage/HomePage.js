@@ -22,10 +22,11 @@ class HomePage extends Component {
                             <label for="blog-summary">Blog summary</label>
                             <textarea name="blog-summary" rows="15"   required></textarea>
                         </div>
+                        
+                        <button>Save</button>
+                        <button>Post</button>
                     </form>
                 
-                    <button>Save</button>
-                    <button>Post</button>
                 </div>
                 <Contact />
             </div>

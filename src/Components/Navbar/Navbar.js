@@ -23,6 +23,10 @@ class Navbar extends Component {
                         Meditate
                     </Link>
                     ||
+                    <Link to='/resources'>
+                        Resources
+                    </Link>
+                    ||
                     <Link to='/register'>
                         Register
                     </Link>
