@@ -1,0 +1,33 @@
+.Home_section > header {
+    padding: 2% 0;
+}
+
+.Home_section {
+    min-height: 200px;
+    padding: 10px 0px;
+    margin: 2% 10%;
+    text-align: center;
+}
+
+.Home_section > form {
+    border: solid black 1px;
+    background-color: #ccc;
+
+}
+
+
+.form-section > input, textarea {
+    width: 100%;
+    max-width: 500px;
+}
+  
+  
+.form-section > label {
+    display: block;
+    text-align: left;
+}
+  
+.form-section {
+    margin-bottom: 30px;
+}
+  

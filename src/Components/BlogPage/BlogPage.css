@@ -1,0 +1,25 @@
+.Blog_section > header {
+    padding: 2% 0;
+  }
+
+.Blog_section > section {
+min-height: 200px;
+padding: 30px 15px;
+background-color: #ccc;
+border: solid black 1px;
+margin: 5% 10%;
+text-align: center;
+}
+
+.BlogPage > section:nth-child(even) {
+background-color: #eee;
+}
+
+.BlogPage > p {
+margin: 0 auto;
+max-width: 650px;
+}
+
+.BlogPage > p + p {
+margin-top: 15px;
+}

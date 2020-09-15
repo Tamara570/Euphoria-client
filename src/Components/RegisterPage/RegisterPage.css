@@ -1,0 +1,30 @@
+
+form {
+    margin: 50px auto;
+    padding: 40px 0;
+    max-width: 650px;
+    text-align: center;
+    border: gray 1px solid;
+}
+  
+label {
+    display: block;
+}
+  
+input[type="text"] {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.363);
+    padding: 3px;
+    text-align: center;
+}
+  
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+  
+form div {
+    width: 50%;
+    margin: 0 auto;
+}
