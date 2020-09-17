@@ -5,6 +5,7 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import HomePage from './Components/HomePage/HomePage';
 import LogInPage from './Components/LogInPage/LogInPage';
 import RegisterPage from './Components/RegisterPage/RegisterPage';
+import MyJournal from './Components/MyJournal/MyJournal';
 import BlogPage from './Components/BlogPage/BlogPage';
 import VideoPage from './Components/VideoPage/VideoPage';
 import Resources from './Components/Resources/Resources';
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path='/login' component={LogInPage} />
           <Route path='/register' component={RegisterPage} />
           <Route path='/blog' component={BlogPage} />
+          <Route path='/journal' component={MyJournal} />
           <Route path='/video' component={VideoPage} />
           <Route path='/resources' component={Resources} />
         </Switch>

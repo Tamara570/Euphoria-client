@@ -1,0 +1,29 @@
+.Journal_section > header {
+    padding: 2% 0;
+  }
+
+.Journal_section > section {
+min-height: 200px;
+padding: 30px 5px;
+background-color: #ccc;
+border: solid black 1px;
+margin: 5% 3%;
+text-align: center;
+}
+
+.Journal_section {
+    display: flex;
+}
+
+.MyJournal > section:nth-child(even) {
+background-color: #eee;
+}
+
+.MyJournal > p {
+margin: 0 auto;
+max-width: 650px;
+}
+
+.MyJournal > p + p {
+margin-top: 15px;
+}

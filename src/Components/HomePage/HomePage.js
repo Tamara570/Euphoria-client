@@ -24,7 +24,7 @@ class HomePage extends Component {
                         </div>
                         
                         <button>Save</button>
-                        <button>Post</button>
+                        <button>Publish</button>
                     </form>
                 
                 </div>
