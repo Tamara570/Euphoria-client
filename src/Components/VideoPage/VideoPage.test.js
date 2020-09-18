@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import VideoPage from './VideoPage';
+import { BrowserRouter } from "react-router-dom";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<VideoPage />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+describe(`VideoPage Component`, () => {
+  it('renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(
+      <BrowserRouter>
+        <VideoPage />
+      </BrowserRouter>, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+})
