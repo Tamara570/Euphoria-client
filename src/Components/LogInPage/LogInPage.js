@@ -13,10 +13,10 @@ class LogInPage extends Component {
                 <form>
                     <div>
                         <label for="uname">Username:</label>
-                        <input type="text" id="uname" name="uname" value="Enter username here" />
+                        <input type="text" id="uname" name="uname" placeholder="Enter username here" />
                         <label for="pword">Password:</label>
-                        <input type="text" id="pword" name="pword" value="Enter password here" />
-                        <input type="button" onClick="/home" value="Log in!" />
+                        <input type="text" id="pword" name="pword" placeholder="Enter password here" />
+                        <input type="submit" onClick="/home" value="Log in!" />
                     </div>
                 </form>
                 <Contact />

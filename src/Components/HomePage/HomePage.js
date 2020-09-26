@@ -12,7 +12,7 @@ class HomePage extends Component {
                 <div className="Home_section">
                     <form className="Home_form">
                         <header>
-                            <h3>Journaling Section</h3>
+                            <h3>What am i grateful for today?</h3>
                         </header>
                         <div className="form-section">
                             <label for="blog-title">Blog title</label>
@@ -22,9 +22,10 @@ class HomePage extends Component {
                             <label for="blog-summary">Blog summary</label>
                             <textarea name="blog-summary" rows="15"   required></textarea>
                         </div>
-                        
+
                         <button>Save</button>
                         <button>Publish</button>
+                        
                     </form>
                 
                 </div>

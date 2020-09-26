@@ -9,15 +9,15 @@ class RegisterPage extends Component {
         return (
             <div className="RegisterPage">
                 <Navbar />
-                <h2>Welcome to Our Community</h2>
+                <h2>Welcome to Our Family</h2>
                 <form className="RegisterPage_form">
                     <div className="Register_inputs">
                         <label for="fname">Full name:</label>
-                        <input type="text" id="fname" name="fname" value="John Doe" />
+                        <input type="text" id="fname" name="fname" placeholder="John Doe" />
                         <label for="uname">Username:</label>
-                        <input type="text" id="uname" name="uname" value="JohnD@yoohoo.etc" />
+                        <input type="text" id="uname" name="uname" placeholder="JohnD@yoohoo.etc" />
                         <label for="pword">Create Password:</label>
-                        <input type="text" id="pword" name="pword" value="qwerty12%" />
+                        <input type="text" id="pword" name="pword" placeholder="qwerty12%" />
                         <input type="submit" value="Register!" />
                     </div>
                 </form>

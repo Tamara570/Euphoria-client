@@ -14,7 +14,13 @@ class Resources extends Component {
                         <header className="Blog_title">
                             <h2>Helpful Resources</h2>
                         </header>
-                        <blockquote>Here i will post links to helpful articles and resources relating to suicide, depression, anxiety, etc.</blockquote>
+                        <blockquote>
+                            <ol>
+                                <li><a href="https://suicidepreventionlifeline.org/">Suicide prevntion hotline  </a>
+                            800-273-8255</li>
+                                <li>Need help finding a therapist? <a href="https://www.psychologytoday.com/us/therapists">Click here</a>.</li>
+                            </ol>
+                        </blockquote>
                         
                     </section>
                 </div>

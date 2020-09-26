@@ -1,6 +1,11 @@
 .Contact {
     padding: 1% 0;
-    background-color: #aaa;
-    text-align: center;
     position: relative;
+    background-color: #b44a4a00;
+    color: rgb(116, 158, 197);
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: underline;
+    border: none;
+    cursor:pointer
 }

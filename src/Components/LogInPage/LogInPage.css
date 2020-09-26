@@ -26,6 +26,17 @@ input[type="button"] {
     display: block;
     margin: auto;
     margin-top: 30px;
+    background-color: #b44a4a00;
+    color: rgb(116, 158, 197);
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: underline; 
+    border: none;
+}
+input[type="submit"]:hover, input[type="submit"]:active {
+    background-color: rgba(116, 158, 197, 0.611);
+    color: white;
+    font-weight: bold;
 }
 
 form div {

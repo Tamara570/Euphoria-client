@@ -1,11 +1,13 @@
 .Video_item {
-    width: 10%;
-    border: solid gray 1px;
-    padding: 5% 10%;
+    border: solid 1px rgba(187, 137, 31, 0.219);
+    background-color: rgba(22, 22, 22, 0.063);
+    padding: 2% 2%;
     display: inline-block;
     margin: 10px 20px;
 }
 
 .Video_title {
     text-align: center;
+    color: rgb(67, 110, 150);
+    font-family: 'Pompiere', cursive;
 }

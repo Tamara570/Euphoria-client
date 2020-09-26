@@ -14,34 +14,35 @@ class Navbar extends Component {
                     <Link to='/home'>
                         Home
                     </Link>
-                    ||
+                    
                     <Link to='/journal'>
                         My Journal
                     </Link>
-                    ||
+                    
                     <Link to='/blog'>
                         Blog
                     </Link>
-                    ||
+                    
                     <Link to='/video'>
                         Meditate
                     </Link>
-                    ||
+                    
                     <Link to='/resources'>
                         Resources
                     </Link>
-                    ||
+                    
                     <Link to='/register'>
                         Register
                     </Link>
-                    ||
+                    
                     <Link to='/login'>
                         Log In
                     </Link>
                 </div>
+                
             </div>
-        );
-    }
+            );
+        }
 }
 
 export default Navbar;
