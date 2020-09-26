@@ -20,7 +20,7 @@ class HomePage extends Component {
                         </div>
                         <div className="form-section">
                             <label for="blog-summary">Blog summary</label>
-                            <textarea name="blog-summary" rows="15"   required></textarea>
+                            <textarea name="blog-summary" rows="15" required />
                         </div>
 
                         <button>Save</button>

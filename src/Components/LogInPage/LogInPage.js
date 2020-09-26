@@ -1,25 +1,47 @@
 import React, { Component } from 'react';
+import TokenService from '../../services/token-service';
 import './LogInPage.css';
-import Navbar from '../Navbar/Navbar';
-import Contact from '../Contact/Contact';
+import { Input } from '../../Utils/Utils';
 
 
 class LogInPage extends Component {
+    static defaultProps = {
+        onLoginSuccess: () => {}
+    }
+
+    state = { error: null }
+
+    handleSubmitBasicAuth = ev => {
+        ev.preventDefault()
+        const { username, password } = ev.target
+    
+        TokenService.saveAuthToken(
+          TokenService.makeBasicAuthToken(username.value, password.value)
+        )
+    
+        username.value = ''
+        password.value = ''
+        this.props.onLoginSuccess()
+    }
+    
+
     render() {
+        const { error } = this.state
         return (
             <div className="LogInPage">
-                <Navbar />
-                <h2>Welcome back!</h2>
-                <form>
+                
+                <form onSubmit={this.handleSubmitBasicAuth}>
+                    <div role='alert'>
+                        {error && <p className='red'>{error}</p>}
+                    </div>
                     <div>
                         <label for="uname">Username:</label>
-                        <input type="text" id="uname" name="uname" placeholder="Enter username here" />
+                        <Input type="text" id="uname" required name="username" placeholder="Enter username here" />
                         <label for="pword">Password:</label>
-                        <input type="text" id="pword" name="pword" placeholder="Enter password here" />
-                        <input type="submit" onClick="/home" value="Log in!" />
+                        <Input type="password" id="pword" required name="password" placeholder="Enter password here" />
+                        <Input type="submit" value="Log in!" />
                     </div>
                 </form>
-                <Contact />
             </div>
         );
     }
