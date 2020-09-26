@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-import LandingPage from './Components/LandingPage/LandingPage';
-import HomePage from './Components/HomePage/HomePage';
-import LogIn from './routes/LogIn/LogIn';
-import Register from './routes/Register/Register';
-import MyJournal from './Components/MyJournal/MyJournal';
-import BlogPage from './Components/BlogPage/BlogPage';
-import VideoPage from './Components/VideoPage/VideoPage';
-import Resources from './Components/Resources/Resources';
+import LandingPage from '../LandingPage/LandingPage';
+import HomePage from '../HomePage/HomePage';
+import LogIn from '../../routes/LogIn/LogIn';
+import Register from '../../routes/Register/Register';
+import MyJournal from '../MyJournal/MyJournal';
+import BlogPage from '../BlogPage/BlogPage';
+import VideoPage from '../VideoPage/VideoPage';
+import Resources from '../Resources/Resources';
 
 
 

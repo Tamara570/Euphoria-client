@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 .LandingPage > header {
     padding: 10% 0;
     border: solid 1px rgba(187, 138, 31, 0.309);
-    margin: 5% 20%;
-    text-align: center;
-    font-family: 'Marcellus SC', serif;
+    margin: 7% 20% 0 20%;
+    text-align: left;
+    font-family: 'Kalam', cursive;
     color: rgb(116, 158, 197);
     background-color: rgba(22, 22, 22, 0.063);
+    padding: 0px 55px;
+}
+
+.LandingPage > header > h1 {
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
 }
   
 .LandingPage > section {
