@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MyJournal from './MyJournal';
+import BlogPage from './BlogPage';
 import { BrowserRouter } from "react-router-dom";
 
-describe(`MyJournal Component`, () => {
+describe(`BlogPage Component`, () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(
       <BrowserRouter>
-        <MyJournal />
+        <BlogPage />
       </BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
   });

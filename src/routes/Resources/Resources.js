@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Resources.css';
-import Navbar from '../Navbar/Navbar';
-import Contact from '../Contact/Contact';
+import Navbar from '../../Components/Navbar/Navbar';
+import Contact from '../../Components/Contact/Contact';
 
 
 class Resources extends Component {

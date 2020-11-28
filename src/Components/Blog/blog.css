@@ -4,13 +4,25 @@
 
 .Blog_section > section {
 min-height: 200px;
-padding: 30px 15px;
+padding: 30px 5px;
 border: solid 1px rgba(187, 137, 31, 0.219);
 background-color: rgba(22, 22, 22, 0.063);
 color: rgb(67, 110, 150);
 font-family: 'Pompiere', cursive;
-margin: 5% 20%;
+margin: 5% 3%;
 text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p, blockquote {
+  font-size: 17px;
+}
+
+.Blog_section {
+    display: flex;
 }
 
 .BlogPage > section:nth-child(even) {

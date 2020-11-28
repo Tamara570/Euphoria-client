@@ -15,11 +15,7 @@ class Navbar extends Component {
                         Home
                     </Link>
                     
-                    <Link to='/journal'>
-                        My Journal
-                    </Link>
-                    
-                    <Link to='/blog'>
+                    <Link to='/Blog'>
                         Blog
                     </Link>
                     
@@ -31,13 +27,6 @@ class Navbar extends Component {
                         Resources
                     </Link>
                     
-                    <Link to='/register'>
-                        Register
-                    </Link>
-                    
-                    <Link to='/login'>
-                        Log In
-                    </Link>
                 </div>
                 
             </div>

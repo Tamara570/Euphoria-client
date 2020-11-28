@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+h3 {
+    font-size: 30px;
+    font-family: 'Marvel', sans-serif;
+}
+
+.Home_section {
+    min-height: 50%;
+    margin: 2% 20%;
+    text-align: left;
+
+}
+
+.Home_section > form {
+    border: solid 1px rgba(187, 137, 31, 0.219);
+    background-color: rgba(22, 22, 22, 0.063);
+    font-family: 'Pompiere', cursive;
+}
+
+.form-section > input, textarea {
+    width: 100%;
+    max-width: 500px;
+}
+  
+  
+.form-section > label {
+    display: block;
+    text-align: left;
+    font-size: 23px;
+}
+  
+.form-section {
+    margin-bottom: 10px;
+}
+  
+/*.Home_section > .form-button {
+    display: flex;
+    justify-content: center;
+}*/

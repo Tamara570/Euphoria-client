@@ -1,8 +1,8 @@
-.Journal_section > header {
+.Blog_section > header {
     padding: 2% 0;
   }
 
-.Journal_section > section {
+.Blog_section > section {
 min-height: 200px;
 padding: 30px 5px;
 border: solid 1px rgba(187, 137, 31, 0.219);
@@ -21,19 +21,19 @@ p, blockquote {
   font-size: 17px;
 }
 
-.Journal_section {
+.Blog_section {
     display: flex;
 }
 
-.MyJournal > section:nth-child(even) {
+.BlogPage > section:nth-child(even) {
 background-color: #eee;
 }
 
-.MyJournal > p {
+.BlogPage > p {
 margin: 0 auto;
 max-width: 650px;
 }
 
-.MyJournal > p + p {
+.BlogPage > p + p {
 margin-top: 15px;
 }

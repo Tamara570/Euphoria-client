@@ -16,7 +16,7 @@ class LandingPage extends Component {
 
                     <p>
                         Please click the 'Home' button below to be taken to the home page, where you will
-                        be able to create a journal entry and, either save it to your personal notes
+                        be able to create a Blog entry and, either save it to your personal notes
                         or post it to our community blog. Please remember this is a 
                         safe space. And you are never alone. 
                     </p>
