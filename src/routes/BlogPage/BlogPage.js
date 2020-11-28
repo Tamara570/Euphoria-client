@@ -39,7 +39,7 @@ export default class BlogPage extends React.Component {
                     id={blog.id}
                     title={blog.title} 
                     content={blog.content}
-                    username={blog.username}
+                    username={blog.username}  
                 />
             )
             }
