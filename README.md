@@ -1,9 +1,10 @@
 EUPHORIA
 
+<img url='/src/images/app.png'>
 About
-We started the Farmers Bazaar for people living during the pandemic .For the immunocompromised it's difficult to get fresh produce from local farms with exposing risk of exposure. We wanted to give people a way to not feel panicked and anxious every time they wanted to go out to the farmers market.
+This app is specificly for people who struggle with mental health issues. The user is able to blog their thoughts and feelings on the home page and, if they're comfortable enough, they can post the blog to our blog section where users can show their support by liking the post. There's also a section for meditation and yoga videos, as well as a section for resources for people who are seriously struggling and need immediate help.
 
-see it live here<a href="">
+see it live <a href="https://euphoria-client.vercel.app/">here</a>
 
 Tech Used
 HTML
