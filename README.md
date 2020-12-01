@@ -1,7 +1,7 @@
 EUPHORIA
 
 
-![home page](https://raw.githubusercontent.com/Tamara570/Euphoria-client/master/src/images/app.png)
+![home page](https://raw.githubusercontent.com/Tamara570/Euphoria-client/master/src/images/Screenshot%20(52).png)
 
 
 About
