@@ -54,7 +54,7 @@ class Home extends React.Component {
           formComplete: true,
         };
     
-         this.props.history.push("/blog");
+         this.props.history.push("/Blog");
       };
 
 
