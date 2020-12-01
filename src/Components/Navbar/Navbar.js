@@ -15,7 +15,7 @@ class Navbar extends Component {
                         Home
                     </Link>
                     
-                    <Link to='/Blog'>
+                    <Link to='/blog'>
                         Blog
                     </Link>
                     

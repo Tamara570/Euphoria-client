@@ -2,6 +2,8 @@ import React from 'react'
 import BlogContext from '../../context/BlogContext'
 import './HomeForm.css'
 import config from '../../config'
+import  {withRouter } from 'react-router-dom'
+
 
 class Home extends React.Component {
     constructor() {
@@ -54,7 +56,7 @@ class Home extends React.Component {
           formComplete: true,
         };
     
-         this.props.history.push("/Blog");
+         this.props.history.push("/blog");
       };
 
 
@@ -74,7 +76,6 @@ class Home extends React.Component {
                                     type="text"
                                     name="title"
                                     className="title-input"
-                                    placeholder="What am I grateful for today?"
                                     required
                                 />
                             </div>
@@ -111,4 +112,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home
+export default withRouter(Home)
