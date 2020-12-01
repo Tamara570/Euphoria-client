@@ -1,6 +1,8 @@
 EUPHORIA
 
-<img src='./src/images/app.png'>
+
+![Image of my project](https://photos.app.goo.gl/jYUauDbgLsUTrPfv7)
+
 About
 This app is specificly for people who struggle with mental health issues. The user is able to blog their thoughts and feelings on the home page and, if they're comfortable enough, they can post the blog to our blog section where users can show their support by liking the post. There's also a section for meditation and yoga videos, as well as a section for resources for people who are seriously struggling and need immediate help.
 
