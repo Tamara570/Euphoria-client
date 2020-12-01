@@ -48,7 +48,7 @@ class Home extends React.Component {
           formComplete: true,
         };
     
-        // this.props.history.push("/blog");
+         this.props.history.push("/blog");
       };
 
 
@@ -57,7 +57,7 @@ class Home extends React.Component {
             <BlogContext.Consumer>
                 {(value) => (
                     <div className="Home_section">
-                        <form className="Home_form"onSubmit={(e) => this.onSubmit(e)}>
+                        <form className="Home_form" onSubmit={(e) => this.onSubmit(e)}>
                             <header>
                                 <h3>What am i grateful for today?</h3>
                             </header>
