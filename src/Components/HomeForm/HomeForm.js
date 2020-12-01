@@ -11,6 +11,12 @@ class Home extends React.Component {
           error: null,
         };
       }
+
+      static defaultProps = {
+        history: {
+            push: () => {},
+          },
+        }
     
       postBlog = (e) => {
         const { title, content, username } = e.target;
@@ -20,8 +26,8 @@ class Home extends React.Component {
           content: content.value,
           username: username.value,
         };
-    
-    
+
+        console.log(blog)
     
         return fetch(`${config.API_ENDPOINT}/blog`, {
           method: "post",
